@@ -1,0 +1,47 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: rgba(3, 3, 3, 0.911);
+  color: rgba(138, 139, 224, 0.932);
+  padding: 6px;
+  text-align: center;
+}
+
+.container {
+ width: 100%;
+ height: 100vh;
+ padding: 1rem;
+}
+
+
+input {
+  display: block;
+  opacity: 95%;
+  width: 16rem;
+  padding: .5em;
+  margin: auto;
+}
+
+button {
+  opacity: 95%;
+  width: 6rem;
+  padding: .4em;
+  margin: auto;
+}
+
+#results {
+  margin: auto;
+  padding: .6em;
+  line-height: 1.5;
+  width: 50ch;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(159, 97, 172, 0.925);
+}
