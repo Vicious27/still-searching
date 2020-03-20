@@ -19,6 +19,7 @@ function getLyrics(artist, title) {
 
 }
 
+//jQuery function that displays results
 function displayResults(responseJson) {
   $('#results').empty();
   $('#results').append(`${responseJson.lyrics}`);
