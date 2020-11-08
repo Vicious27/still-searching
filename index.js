@@ -17,7 +17,6 @@ function getLyrics(artist, title) {
     .catch(err => {
       $('#js-error-message').text(`Something went wrong: ${err.message}`);
     });
-
 }
 
 //jQuery function that displays results
