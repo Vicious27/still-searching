@@ -16,6 +16,11 @@ body {
  padding: 1rem;
 }
 
+h1 {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(159, 97, 172, 0.925);
+}
 
 input {
   display: block;
@@ -36,12 +41,6 @@ button {
   margin: auto;
   padding: .6em;
   line-height: 1.5;
-  width: 39ch;
+  width: 35ch;
   font-size: 1.2em;
-}
-
-h1 {
-  font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgba(159, 97, 172, 0.925);
 }

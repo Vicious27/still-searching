@@ -13,7 +13,7 @@ function getLyrics(artist, title) {
       throw new Error(response.statusText);
     })
     .then(responseJson => displayResults(responseJson))
-    .then(responseJson => displayNoResults(responseJson))
+    // .then(responseJson => displayNoResults(responseJson))
     .catch(err => {
       $('#js-error-message').text(`Something went wrong: ${err.message}`);
     });
@@ -27,11 +27,11 @@ function displayResults(responseJson) {
 }
 
 //jQUery function that display a message if no results are found.
-function displayNoResults() {
-  $('#no-results').empty();
-  $('#no-results').append('Ooops! Maybe check the spelling?');
-  $('#no-results').removeClass('hidden');
-}
+// function displayNoResults() {
+//   $('#no-results').empty();
+//   $('#no-results').append('Ooops! Maybe check the spelling?');
+//   $('#no-results').removeClass('hidden');
+// }
 
 
 function watchForm() {
